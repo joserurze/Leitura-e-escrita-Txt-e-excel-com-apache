@@ -11,7 +11,7 @@ public class Arquivos {
 	public static void main(String[] args) throws IOException {
 		
 		Pessoa pessoa1 = new Pessoa();
-		pessoa1.setNome("José Rurze");
+		pessoa1.setNome("Jose Rurze");
 		pessoa1.setEmail("pessoa1@gmail.com");
 		pessoa1.setIdade(37);
 		
@@ -31,7 +31,7 @@ public class Arquivos {
 		pessoas.add(pessoa2);
 		pessoas.add(pessoa3);
 
-		File arquivo = new File("C:\\workspaces-java\\Arquivos\\src\\arquivos\\arquivo.txt");
+		File arquivo = new File("C:\\workspaces-java\\Arquivos\\src\\arquivos\\arquivo.csv");
 
 		if (!arquivo.exists()) {
 			arquivo.createNewFile();
